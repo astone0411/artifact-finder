@@ -1,3 +1,9 @@
+#===============================================================
+#
+# Version 1.1 - Updated June 10, 2026 by Amy Stone, PhD
+# Changes:  updated targets for artifact checking (added additional 4 variants)
+#
+#===============================================================
 import streamlit as st
 import gzip
 import io
@@ -96,12 +102,16 @@ TARGETS = [
     ("NBN p.R466fs", "8", 89955283, "CT", "C"),
     ("BLM p.Q1262*", "15", 90809169, "C", "T"),
     ("CREBBP p.I1084fs", "16", 3767719, "CT", "C"),
+    ("WT1 p.Q214*", "11", 32434721, "G", "A"),
     ("SMARCA4 p.Q66*", "19", 10984347, "C", "T"),
     ("CEBPA p.D105fs", "19", 33302101, "TCG", "T"),
     ("RAD51C p.Q344*", "17", 58734121, "C", "T"),
+    ("ARID1B p.Y2235*", "6", 157207477, "T", "G"),
     ("FANCF p.Q290*", "11", 22624943, "G", "A"),
     ("GRIN2A p.Q1278*", "16", 9763712, "G", "A"),
     ("ARID1B p.Q1569*", "6", 157200930, "C", "T"),
+    ("ARID1A p.Q1584*", "1", 26774977, "C", "T"),
+    ("PALB2 p.M296fs", "16", 23635659, "AT", "A"),
     ("AR p.Q80del", "X", 67545316, "TGCA", "T"),
     ("ARID1A p.D1850fs", "1", 26779439, "T", "TG"),
     ("ARID1A p.Q546fs", "1", 26731432, "AC", "A"),
